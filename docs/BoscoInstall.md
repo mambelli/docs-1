@@ -320,19 +320,19 @@ Here is a simple example. The Condor team provides [[http://research.cs.wisc.edu
 Your may wrap your job in a script (e.g. using your favorite shell or Python) so that you can invoke more executables and do some tests.
 
 This is a simple bash script, called =myjob.sh=: <pre class="file">
-#!/bin/bash
 
-# Prepare for the execution
+        #!/bin/bash
+        # Prepare for the execution
 
-# Run the actual applications
-hostname 
-date 
-id 
-whoami 
+        # Run the actual applications
+        hostname 
+        date 
+        id 
+        whoami 
+        
+        # Final steps
 
-# Final steps
 
-</pre>
 
 
 ---## Example Submission File
